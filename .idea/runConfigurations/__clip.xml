@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="--clip" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="gtfs2sqlite" />
+    <working_directory value="$PROJECT_DIR$/out" />
+    <parameters value="--clip sample-feed.db --clip-feature ../sample_data/ne_beatty.json" />
+    <kind value="PACKAGE" />
+    <package value="github.com/dzfranklin/gtfs2sqlite/cmd" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
